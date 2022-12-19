@@ -33,8 +33,12 @@ Initially, I believed that text-specific neural networks like LSTM with embeddin
 
 Lastly, I tested a neural network with pre-trained embeddings (GloVe). GloVe, Global Vectors, is a model for the representation of distributed words. The model is an unsupervised learning algorithm to obtain vector representations of words. This is achieved by assigning words to significant space where the distance between words is related to semantic similarity. It is the second model with better predictions that I have tried.
 
-<img src="C:\Users\Cristina\OneDrive\Documentos\Curs SEPE\Deep_learning_finalproject/taula_resultats.jpg" alt="Taula resultats" title="Taula resultats">
-
+<img
+  src="C:\Users\Cristina\OneDrive\Documentos\Curs SEPE\Deep_learning_finalproject/taula_resultats.jpg"
+  alt="Alt text"
+  title="Taula resultats"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  
 ## Conclusions
 As it is not a complex data set and has many features that can help with prediction, a traditional ML algorithm has worked better for us than a neural network.
 We have achieved better performance with a fairly small dataframe (a bit over 1,000 observations) than with the general dataset (of almost 200,000 observations, from which we had taken a sample of 9,000).
